@@ -1,0 +1,30 @@
+{
+  "name": "genpark-clipmatch-social-asset-generator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - ClipMatch AI social video composition arranger.",
+  "author": "genpark",
+  "category": "creative",
+  "tags": [
+    "video",
+    "creative",
+    "clipmatch"
+  ],
+  "inputs": {
+    "raw_clips_meta": {
+      "type": "array"
+    },
+    "vibe_theme": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "selected_timeline": {
+      "type": "array"
+    },
+    "music_genre": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
